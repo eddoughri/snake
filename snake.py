@@ -1,5 +1,7 @@
 import random
 import curses
+
+# cp
 screen=curses.initscr()
 curses.curs_set(0)
 screen_height,screen_width=screen.getmaxyx()
